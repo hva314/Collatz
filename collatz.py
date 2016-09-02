@@ -47,7 +47,6 @@ def run(x):
         # calculate the collazts value of the current number
         # map it to others value in the list
         lst[x] = calc(x)
-        print(lst[x])
         
         # run the new number
         run(lst[x])
